@@ -15,7 +15,7 @@
     "expo": "^34.0.1",
     "format-json": "^1.0.3",
     "lodash": "^4.17.2",
-    "querystringify": "^0.0.4",
+    "querystringify": "^2.0.0",
     "ramda": "^0.25.0",
     "react": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
