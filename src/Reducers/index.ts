@@ -1,4 +1,3 @@
-/// <reference types="@types/webpack-env" />
 import { combineReducers } from 'redux'
 import root from '../Sagas'
 import configureStore from './CreateStore'
