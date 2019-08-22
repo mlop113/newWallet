@@ -1,11 +1,9 @@
 import * as React from 'react'
 import { Provider } from 'react-redux'
-import Reactotron from 'reactotron-react-native'
 import './src/Config'
 import DebugConfig from './src/Config/DebugConfig'
 import createStore from './src/Reducers'
 import RootContainer from './src/Containers/RootContainer'
-import {View} from 'react-native'
 // create our store
 const store = createStore()
 
@@ -31,5 +29,5 @@ class App extends React.Component {
 
 // allow reactotron overlay for fast design in dev mode
 export default DebugConfig.useReactotron
-	? Reactotron.overlay(App)
+	? console.tron.overlay(App)
 	: App
